@@ -46,6 +46,25 @@ task helloWorldClient(type: JavaExec) {
     description = "Executes the hello world client."
     classpath = sourceSets.main.runtimeClasspath
 }
+task PollClient(type: JavaExec) {
+
+    main = "edu.sjsu.cmpe273.lab2.PollServiceClient"
+
+    description = "Executes the Poll Client .."
+
+    classpath = sourceSets.main.runtimeClasspath
+
+}
+
+task PollServer(type: JavaExec) {
+
+    main = "edu.sjsu.cmpe273.lab2.PollServiceServer"
+
+    description = "Executes the Poll Server .."
+
+    classpath = sourceSets.main.runtimeClasspath
+
+}
 
 // Allow intellij projects to refer to generated-sources
 idea {
