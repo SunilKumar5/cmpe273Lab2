@@ -1,4 +1,4 @@
-grpc-java
+Lab2 on grpc-java
 =========
 
 How to Build
